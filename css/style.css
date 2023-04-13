@@ -32,15 +32,9 @@
 .my-btn {
 	font-family: 'Rajdhani', sans-serif;
 	font-weight: 400;
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out; /* changing animation time -- hover color change and page loading button appearance */
 	text-transform: none;
 	border-radius: 0;
-
-	color: #fff;
-	background-color: black;
-	border-color: #42dca3;
 
 	text-align: center;
 	white-space: nowrap;
@@ -67,7 +61,6 @@
 
 .my-btn-primary:active {
 	color: #fff;
-	box-shadow: none;
 	background-color: #115d40;
 	border-color: #115d40;
 }
