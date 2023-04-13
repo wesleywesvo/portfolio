@@ -1,8 +1,19 @@
-#particles-js {
+#background {
 	position: absolute;
 	width: 100%;
 	height: 100%;
 	background: black;
+}
+
+/*--------------------- mainNav ID ---------------------*/
+#mainNav {
+	color: #42dca3;
+}
+
+#mainNav.navbar-shrink,
+.nav-link {
+	color: #42dca3;
+	border-bottom: #42dca3;
 }
 
 /*--------------------- Intro Header aka 'masthead' class ---------------------*/
@@ -11,6 +22,7 @@
 	/* affects only h1 of class 'masthead' */
 	font-family: 'Rajdhani', sans-serif;
 	font-weight: 100;
+	color: white;
 
 	/* counteract from vendor grayscale classes (.brand-heading and h1) */
 	text-transform: none;
