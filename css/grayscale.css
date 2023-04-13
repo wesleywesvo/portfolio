@@ -124,7 +124,7 @@ a:hover {
 		); /* comment: Background color of navbar when section is reached */
 	}
 	#mainNav .nav-link.active:hover {
-		color: #ff8300;
+		color: #42dca3;
 	}
 }
 
