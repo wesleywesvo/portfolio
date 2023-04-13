@@ -34,7 +34,7 @@ h6 {
 	font-family: 'Rajdhani', sans-serif;
 	font-weight: 100;
 	letter-spacing: 10px;
-	text-shadow: -1px 0 #ff8300, 0 1px #ff8300, 1px 0 #ff8300, 0 -1px #ff8300;
+	text-shadow: -1px 0 #42dca3, 0 1px #42dca3, 1px 0 #42dca3, 0 -1px #42dca3;
 }
 
 .intro-text {
@@ -95,6 +95,7 @@ a:hover {
 }
 @media (min-width: 992px) {
 	#mainNav {
+		/* comment: navbar when fixed at top of page */
 		padding-top: 20px;
 		padding-bottom: 20px;
 		-webkit-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out,
@@ -103,18 +104,24 @@ a:hover {
 			padding-bottom 0.3s;
 		transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
 		letter-spacing: 1px;
-		border-bottom: none;
+		border-bottom: 1px solid #42dca3;
 		background: transparent;
 	}
 	#mainNav.navbar-shrink {
+		/* comment: navbar that follows while scrolling */
 		padding-top: 10px;
 		padding-bottom: 10px;
-		border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+		border-bottom: 1px solid #42dca3;
 		background: black;
 	}
 	#mainNav .nav-link.active {
 		outline: none;
-		background-color: rgba(255, 255, 255, 0.3);
+		background-color: rgba(
+			255,
+			255,
+			255,
+			0.3
+		); /* comment: Background color of navbar when section is reached */
 	}
 	#mainNav .nav-link.active:hover {
 		color: #ff8300;
@@ -122,7 +129,7 @@ a:hover {
 }
 
 #mainNav .nav-link:hover {
-	color: #ff8300;
+	color: #1d9b6c; /* comment: Color of link when hovering */
 }
 
 .masthead {
@@ -154,7 +161,7 @@ a:hover {
 		padding: 0;
 	}
 	.masthead .intro-body .brand-heading {
-		font-size: 100px;
+		font-size: 60px;
 	}
 	.masthead .intro-body {
 		font-size: 22px;
