@@ -36,10 +36,6 @@ a {
 	border-bottom: 1px solid #42dca3;
 }
 
-#mainNav.navbar-shrink:hover {
-	color: #1d9b6c;
-}
-
 /*--------------------- Intro Header aka 'masthead' class ---------------------*/
 .masthead {
 	background: black;
@@ -114,7 +110,20 @@ a {
 /*------------------------- About section -------------------------------------*/
 
 .about-section {
-	padding-top: 20px;
+	padding-top: 30px;
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*------------------------- Project section -------------------------------------*/
+
+.projects-section {
+	padding-top: 30px;
+}
+
+.MMU {
+	width: 100%;
+	height: 100%;
 }
 
 /*-----------------------------------------------------------------------------*/
