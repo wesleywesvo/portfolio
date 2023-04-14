@@ -135,8 +135,8 @@ a {
 
 /*------------------------- Project section -------------------------------------*/
 
-.projects-section {
-	padding-top: 30px;
+.projects-section .project-text {
+	padding: 20px;
 }
 
 .project-images {
@@ -146,6 +146,11 @@ a {
 
 .project-text {
 	color: rgba(255, 255, 255, 0.5);
+}
+
+.project-icon-image {
+	height: 40px;
+	width: 40px;
 }
 
 /*-----------------------------------------------------------------------------*/
@@ -182,5 +187,27 @@ a {
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
+}
+/*-----------------------------------------------------------------------------*/
+
+/*------------------------- Contact section -------------------------------------*/
+.contact-icon-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.contact-icons {
+	height: 80px;
+	width: 80px;
+}
+
+#contact .mx-auto {
+	text-align: center;
+}
+
+#contact h2 {
+	padding-bottom: 2em;
 }
 /*-----------------------------------------------------------------------------*/
