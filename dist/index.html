@@ -19,6 +19,12 @@
 			src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"
 			crossorigin="anonymous"
 		></script>
+
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+		/>
+
 		<!-- Google fonts-->
 		<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
 		<link
@@ -93,7 +99,10 @@
 						<h1 class="mx-auto my-0">👋 Hi, I'm Wesley Vo</h1>
 						<p>Computer Engineer</p>
 						<div class="my-btn-display">
-							<a class="my-btn my-btn-primary" href="#about">More About Me</a>
+							<a class="my-btn my-btn-primary" href="#about">About Me</a>
+							<a class="my-btn my-btn-primary" href="#projects">Projects</a>
+							<a class="my-btn my-btn-primary" href="#">Skills</a>
+							<a class="my-btn my-btn-primary" href="#contact">Contact</a>
 						</div>
 					</div>
 				</div>
@@ -104,31 +113,27 @@
 		<section class="about-section bg-black" id="about">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-8 mx-auto">
-						<h2>About Me</h2>
-						<p>
-							I am a Computer Engineer graduate from SUNY Stony Brook. As a computer
-							engineer I have experience with both hardware description languages and
-							programming languages
-							<br />
-							<br />
-							peepee
-							<br />
-							<br />
-							More recently, I have been self-learning web development techniques and
-							working on personal projects to further my software skills and to see if
-							I enjoy front-end development.
-						</p>
-						<div class="my-btn-display">
-							<a
-								class="my-btn my-btn-primary"
-								href="https://docs.google.com/document/d/1g9RiSpLOMfPOVYCwOnomzx_PFQU1fT0kBioFztg4CkM/edit?usp=sharing"
-								target="_blank"
-								>Resume</a
-							>
-							<a class="my-btn my-btn-primary" href="#projects">Projects</a>
-							<a class="my-btn my-btn-primary" href="#">Skills</a>
-							<a class="my-btn my-btn-primary" href="#contact">Contact</a>
+					<div class="col-lg-12 mx-auto about-text">
+						<!-- Project Two Row-->
+						<div class="row gx-0">
+							<div class="col-lg-6">
+								<p>
+									I am a Computer Engineer graduate from SUNY Stony Brook. As a
+									computer engineer I have experience with both hardware
+									description languages and programming languages.
+									<br />
+
+									<br />
+									More recently, I have been self-learning web development
+									techniques and working on personal projects to further my
+									software skills and to challenge myself.
+								</p>
+							</div>
+							<div class="col-lg-6 order-lg-first">
+								<div class="bg-black text-center h-100 project">
+									<h2 class="">About Me</h2>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -149,7 +154,11 @@
 				<!-- Project One Row-->
 				<div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
 					<div class="col-lg-6">
-						<img class="MMU" src="./media/projects/MMU rough drawing.jpg" alt="..." />
+						<img
+							class="project-images"
+							src="./media/projects/MMU rough drawing.jpg"
+							alt="..."
+						/>
 					</div>
 					<div class="col-lg-6">
 						<div class="bg-black text-center h-100 project">
@@ -157,9 +166,12 @@
 								<div class="project-text w-100 my-auto text-center text-lg-left">
 									<h4 class="text-white">4-Stage Pipeline Multimedia Unit</h4>
 									<p class="mb-0 text-white-50">
-										An example of where you can put an image of a project, or
-										anything else, along with a description.
+										A multimedia unit that can process a set of instructions
+										throughout "pipelines". Each pipeline refers to a stage in
+										the unit that performs a specific task read from the initial
+										instruction.
 									</p>
+									<p class="mb-0 project-text">Languages: VHDL, C++</p>
 								</div>
 							</div>
 						</div>
@@ -169,20 +181,159 @@
 				<!-- Project Two Row-->
 				<div class="row gx-0 justify-content-center">
 					<div class="col-lg-6">
-						<img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="..." />
+						<img
+							class="project-images"
+							src="./media/projects/alarm clock.gif"
+							alt="..."
+						/>
 					</div>
 					<div class="col-lg-6 order-lg-first">
 						<div class="bg-black text-center h-100 project">
 							<div class="d-flex h-100">
 								<div class="project-text w-100 my-auto text-center text-lg-right">
-									<h4 class="text-white">Mountains</h4>
+									<h4 class="text-white">Alarm Clock</h4>
 									<p class="mb-0 text-white-50">
-										Another example of a project with its respective
-										description. These sections work well responsively as well!
+										Programmed onto an ATtiny48 chip. This clock can display the
+										seconds in binary format through six LED bulbs.
 									</p>
+									<p class="mb-0 project-text">Languages: AVR Assembly</p>
 								</div>
 							</div>
 						</div>
+					</div>
+				</div>
+
+				<!-- Project Three Row-->
+				<div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+					<div class="col-lg-6">
+						<img class="project-images" src="./media/projects/3d model.jpg" alt="..." />
+					</div>
+					<div class="col-lg-6">
+						<div class="bg-black text-center h-100 project">
+							<div class="d-flex h-100">
+								<div class="project-text w-100 my-auto text-center text-lg-left">
+									<h4 class="text-white">User3D</h4>
+									<p class="mb-0 project-text">
+										Capturing data using depth cameras to create 3-D models as
+										well as provide health-related information.
+									</p>
+									<p class="mb-0 project-text">Languages: MATLAB</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Project Four Row-->
+				<div class="row gx-0 justify-content-center">
+					<div class="col-lg-6">
+						<img class="project-images" src="assets/img/demo-image-02.jpg" alt="..." />
+					</div>
+					<div class="col-lg-6 order-lg-first">
+						<div class="bg-black text-center h-100 project">
+							<div class="d-flex h-100">
+								<div class="project-text w-100 my-auto text-center text-lg-right">
+									<h4 class="text-white">Spit</h4>
+									<p class="mb-0 text-white-50">
+										Spit card game
+										<br />
+										placeholder image going to be short gif
+									</p>
+									<p class="mb-0 project-text">Languages: JavaScript, HTML/CSS</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Skills -->
+		<section class="skills-section bg-black" id="skills">
+			<div class="container">
+				<h1 class="skills-banner">Skills</h1>
+				<div class="row">
+					<div class="col-lg-12 skill-column">
+						<div class="icon-container">
+							<img
+								class="skills-img"
+								src="./media/skills icons/assembly-avr-icon-original.svg"
+							/>
+							<br />
+							<span class="skills-text">Assembly</span>
+						</div>
+						<div class="icon-container">
+							<img
+								class="skills-img"
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+							/>
+
+							<br />
+							<span class="skills-text">C/C++</span>
+						</div>
+						<div class="icon-container">
+							<img
+								class="skills-img"
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+							/>
+
+							<br />
+							<span class="skills-text">CSS3</span>
+						</div>
+						<div class="icon-container">
+							<img
+								class="skills-img"
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+							/>
+
+							<br />
+							<span class="skills-text">HTML5</span>
+						</div>
+					</div>
+					<div class="col-lg-12 skill-column">
+						<div class="icon-container">
+							<img
+								class="skills-img"
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+							/>
+
+							<br />
+							<span class="skills-text">Git</span>
+						</div>
+						<div class="icon-container">
+							<img
+								class="skills-img"
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg"
+							/>
+
+							<br />
+							<span class="skills-text">Java</span>
+						</div>
+						<div class="icon-container">
+							<img
+								class="skills-img"
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg"
+							/>
+
+							<br />
+							<span class="skills-text">MATLAB</span>
+						</div>
+
+						<div class="icon-container">
+							<img
+								class="skills-img"
+								src="./media/skills icons/vhdl-icon-original.svg"
+							/>
+
+							<br />
+							<span class="skills-text">VHDL</span>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12 skill-column">
+						<div class="icon-container"></div>
+						<div class="icon-container"></div>
 					</div>
 				</div>
 			</div>

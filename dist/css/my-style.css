@@ -60,7 +60,7 @@ a {
 .my-btn-display {
 	display: flex;
 	justify-content: space-evenly;
-	margin-top: 35px;
+	margin-top: 25px;
 }
 
 .my-btn {
@@ -103,6 +103,7 @@ a {
 
 #about,
 #projects,
+#skills,
 #contact {
 	border-top: 1px solid #42dca3;
 }
@@ -111,6 +112,23 @@ a {
 
 .about-section {
 	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.about-section .my-btn {
+	/*make all buttons the same size*/
+	width: 30%;
+}
+
+.about-section p {
+	margin-bottom: 0;
+	font-size: 20px;
+}
+
+.about-section h2 {
+	font-size: 40px;
+	padding-top: 25%;
+	padding-right: 35%;
 }
 
 /*-----------------------------------------------------------------------------*/
@@ -121,9 +139,48 @@ a {
 	padding-top: 30px;
 }
 
-.MMU {
-	width: 100%;
+.project-images {
+	max-width: 100%;
 	height: 100%;
 }
 
+.project-text {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/*------------------------- Skills section -------------------------------------*/
+
+#skills {
+	padding: 100px;
+}
+
+.skills-banner {
+	color: #ffffff;
+	text-align: center;
+}
+
+.skills-section .row .skill-column {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+
+.skills-text {
+	font-size: 30px;
+}
+
+.skills-img {
+	width: 100px;
+	height: 100px;
+}
+
+.icon-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
 /*-----------------------------------------------------------------------------*/
