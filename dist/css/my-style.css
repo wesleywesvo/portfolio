@@ -7,18 +7,25 @@
 
 /*--------------------- mainNav ID ---------------------*/
 #mainNav {
-	color: #42dca3;
+	font-family: 'Rajdhani', sans-serif;
+	margin-bottom: 0;
+	text-transform: none;
+	background-color: black;
+	border-bottom: 1px solid #42dca3;
 }
 
-#mainNav.navbar-shrink,
-.nav-link {
-	color: #42dca3;
-	border-bottom: #42dca3;
+#mainNav.navbar-shrink {
+	border-bottom: 1px solid #42dca3;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+	color: #1d9b6c;
 }
 
 /*--------------------- Intro Header aka 'masthead' class ---------------------*/
 
-.masthead h1 {
+.masthead h1 .brand-heading {
 	/* affects only h1 of class 'masthead' */
 	font-family: 'Rajdhani', sans-serif;
 	font-weight: 100;

@@ -3917,10 +3917,10 @@ fieldset:disabled .btn {
 .navbar {
 	--bs-navbar-padding-x: 0;
 	--bs-navbar-padding-y: 0.5rem;
-	--bs-navbar-color: rgba(0, 0, 0, 0.55);
+	--bs-navbar-color: #ffffff;
 	--bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
 	--bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
-	--bs-navbar-active-color: rgba(0, 0, 0, 0.9);
+	--bs-navbar-active-color: #1d9b6c;
 	--bs-navbar-brand-padding-y: 0.3125rem;
 	--bs-navbar-brand-margin-end: 1rem;
 	--bs-navbar-brand-font-size: 1.25rem;
@@ -11208,13 +11208,13 @@ body {
 
 #mainNav {
 	min-height: 3.5rem;
-	background-color: #fff;
+	background-color: #000000;
 }
 #mainNav .navbar-toggler {
 	font-size: 80%;
 	padding: 0.75rem;
-	color: #64a19d;
-	border: 1px solid #64a19d;
+	color: #42dca3;
+	border: 1px solid #42dca3;
 }
 #mainNav .navbar-toggler:focus {
 	outline: none;
@@ -11236,11 +11236,11 @@ body {
 }
 @media (min-width: 992px) {
 	#mainNav {
-		padding-top: 0;
-		padding-bottom: 0;
-		border-bottom: none;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		border-bottom: 1px solid #42dca3;
 		background-color: transparent;
-		transition: background-color 0.3s ease-in-out;
+		transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
 	}
 	#mainNav .navbar-brand {
 		padding: 0.5rem 0;
@@ -11258,7 +11258,9 @@ body {
 		color: #fff;
 	}
 	#mainNav.navbar-shrink {
-		background-color: #fff;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		background-color: #000000;
 	}
 	#mainNav.navbar-shrink .navbar-brand {
 		color: #fff;
