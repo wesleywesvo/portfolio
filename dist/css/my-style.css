@@ -127,8 +127,10 @@ a {
 
 .about-section h2 {
 	font-size: 40px;
-	padding-top: 25%;
-	padding-right: 35%;
+	text-align: left;
+	position: relative;
+	top: 40%;
+	left: 6%;
 }
 
 /*-----------------------------------------------------------------------------*/
