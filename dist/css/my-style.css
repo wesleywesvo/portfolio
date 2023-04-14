@@ -158,12 +158,13 @@ a {
 /*------------------------- Skills section -------------------------------------*/
 
 #skills {
-	padding: 100px;
+	padding: 70px;
 }
 
 .skills-banner {
 	color: #ffffff;
 	text-align: center;
+	padding-bottom: 50px;
 }
 
 .skills-section .row .skill-column {
@@ -186,7 +187,7 @@ a {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-evenly;
 }
 /*-----------------------------------------------------------------------------*/
 
